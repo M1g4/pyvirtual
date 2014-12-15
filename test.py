@@ -1,2 +1,2 @@
 __author__ = 'root'
-hello git
+print "hello git"
