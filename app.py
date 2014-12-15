@@ -25,6 +25,7 @@ def int_type(value):
 @app.route("/float/<float_value>")
 def float_type(value):
 	print value + 1
+	print "hello another stuff"
 	return "correct"
 
 @app.route("/path/<path:value>")
