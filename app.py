@@ -30,8 +30,8 @@ def float_type(value):
 @app.route("/path/<path:value>")
 def path_type(value):
 	print value
+	print "hello stuff"
 	return "correct"
 
 if __name__ == "__main__":
 	app.run()
-
